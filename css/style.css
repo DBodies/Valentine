@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  margin: 0 0 0 0;
+  background-color: rgba(16, 18, 20, 1);
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+picture {
+  text-align:  inherit;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+
+}
+
+button {
+  cursor: pointer;
+  padding: 0 0 0 0;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  padding: 32px 80px;
+}
+/* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header */
+
+.header {
+    display: flex;
+}
+.firstName {
+    font-weight: 400;
+font-size: 28px;
+color: #ffea00;
+display: flex;
+align-items: center;
+margin-right: 160px;
+}
+.headerList {
+    display: flex;
+   gap: 48px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: auto;
+}
+.headerItems {
+    font-weight: 400;
+font-size: 28px;
+}
+.listLink {
+    color: #ffea00;
+}
+.btnSwitch {
+border: 1px solid #ffea00;
+padding: 4px 16px;
+width: 103px;
+height: 55px;
+background-color: transparent;
+color: yellow;
+}
+.btnContact {
+border-radius: 40px;
+padding: 15px 82px;
+color: black;
+border-color: #ffea00;
+background-color: #ffea00;
+}
+.svgValek {
+margin-right: 39px;
+}
