@@ -12,30 +12,75 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="container header">
-        <svg width="145" class="svgValek">
-          <use href="./sprite.svg#icon-CircleattoValek"></use>
+        <svg class="svgValek"
+          xmlns="http://www.w3.org/2000/svg"
+          width="145"
+          height="141"
+          fill="none"
+        >
+          <path
+            fill="#FFEA01"
+            fill-rule="evenodd"
+            d="M101.428 109.419a49.271 49.271 0 0 1-19.188 3.865c-27.46 0-49.76-22.43-49.76-50.142 0-11.966 4.157-22.946 11.092-31.561a49.28 49.28 0 0 1 19.188-3.865c27.46 0 49.759 22.43 49.759 50.142 0 11.965-4.156 22.946-11.091 31.561Zm5.757-2.882c5.275-8.273 8.334-18.116 8.334-28.679 0-29.35-23.62-53.142-52.76-53.142-5.158 0-10.144.746-14.857 2.136C56.835 18.268 68.932 13 82.24 13 109.701 13 132 35.429 132 63.142a50.185 50.185 0 0 1-24.815 43.395Zm-3.9 5.351C121.95 103.701 135 84.957 135 63.142 135 33.792 111.379 10 82.24 10c-16.285 0-30.847 7.432-40.525 19.112C23.05 37.3 10 56.044 10 77.858 10 107.208 33.621 131 62.76 131c16.285 0 30.847-7.432 40.525-19.112Zm-6.187 2.26a52.44 52.44 0 0 1-14.858 2.136c-29.138 0-52.76-23.793-52.76-53.142 0-10.563 3.06-20.406 8.335-28.68A50.185 50.185 0 0 0 13 77.859C13 105.571 35.299 128 62.76 128c13.309 0 25.405-5.268 34.338-13.852Z"
+            clip-rule="evenodd"
+          />
         </svg>
         <p class="firstName">Valentyn</p>
         <ul class="headerList">
-            <li class="headerItems"><a class="listLink" href="">Home</a></li>
-            <li class="headerItems"><a class="listLink" href="">About me</a></li>
-            <li class="headerItems"><a class="listLink" href="">My projects</a></li>
-            <li class="headerItems"><a class="listLink" href="">My skills</a></li>
-            <li class="headerItems"><a class="listLink" href="">Contact</a></li>
-            <li class="headerItems"><button class="btnSwitch" type="button">EN</button></li>
-            <li class="headerItems"><button class="btnContact" type="button">Contact</button></li>
+          <li class="headerItems"><a class="listLink" href="">Home</a></li>
+          <li class="headerItems"><a class="listLink" href="">About me</a></li>
+          <li class="headerItems">
+            <a class="listLink" href="">My projects</a>
+          </li>
+          <li class="headerItems"><a class="listLink" href="">My skills</a></li>
+          <li class="headerItems"><a class="listLink" href="">Contact</a></li>
+          <li class="headerItems">
+            <button class="btnSwitch" type="button">EN <svg width="15" height="15" class="vector">
+              <use href="./sprite.svg#icon-vector"></use>
+            </svg></button>
+          </li>
+          <li class="headerItems">
+            <button class="btnContact" type="button">Contact</button>
+          </li>
         </ul>
       </div>
     </header>
+    <main>
+      <section class="firstSection">
+<div class="container firstTitle">
+  <div class="firstWrapper">
+    <h1 class="Name"><span class="snapName">NEELOV</span> <span class="spanSecondNAme">VALENTYN</span></h1>
+    <designs, class="textUnderName">I'm a junior UI/UX Designer.
+I can and know how to create modern website designs, mobile apps, know how to customize them.</p>
+    <button class="btn-contactMe">Contact me <svg width="25" height="15" class="svgInBtn">
+      <use href="./sprite.svg#icon-Arrow-1"></use>
+    </svg></button>
+      <div class="input-container">
+  <input type="text" id="animatedInput" placeholder=" " readonly>
+</div>
+
+  </div>
+  <div class="secondWrapper">
+    <svg class="firstPlus"  width="118" height="118">
+      <use href="./sprite.svg#icon-plus"></use>
+            </svg>
+            <img class="imgMan" src="./img/31-removebg-preview.png" alt="men">
+        <p class="textToWork">Open to work</p>
+    <svg class="secondPlus"  width="118" height="118">
+      <use href="./sprite.svg#icon-plus"></use>
+            </svg>
+            </div>
+  </div>
+
+      </section>
+    </main>
+    <script src="./main.js"></script>
   </body>
 </html>
