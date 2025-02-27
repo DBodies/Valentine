@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body.loading {
+  visibility: hidden;
+}
 body {
   margin: 0 0 0 0;
   background-color: rgba(16, 18, 20, 1);
@@ -269,16 +271,22 @@ flex-direction: row;
 .secondList {
   display: flex;
   flex-direction: column;
-  max-width: 1010px;
-gap: 32px;
-margin-right: 130px;
+  max-width: 900px;
+gap: 16px;
+    margin-right: 170px;
+
 }
-.secondList-items {
-}
-.secondText {
-font-weight: 500;
+.secondList .secondList-items:nth-child(5) p {
+  font-weight: 500;
 font-size: 32px;
 line-height: 150%;
+color: #ffea00;
+}
+
+.secondText {
+  font-weight: 500;
+font-size: 28px;
+line-height: 150%
 }
 .btnReadMore {
     padding: 21px 30px;
@@ -291,23 +299,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.svgInBtn2 {
-  margin-left: 15px;
-}
 .upperSvgWomen {
 position: relative;
-top: 494px;
+top: 523px;
+left: 75px;
 }
 .womenWithPaper {
   transform: scale(1.5);
   position: relative;
-}
-.womenWithPaper::after {
-content: "";
-display: inline-block;
-width: 1158px;
-height: 3px;
-background-color: #ffea00;
+  top: -50px;
 }
 .stroke {
   position: relative;
@@ -315,14 +315,95 @@ background-color: #ffea00;
 .stroke::after {
 content: "";
 display: inline-block;
-width: 400px;
+width: 320px;
 height: 1px;
 background-color: #ffea00;
 position: absolute;
-top: 545px;
-left: -360px;
+top: 575px;
+left: -280px;
 }
 .lowerSvgWomen {
   position: relative;
   right: -30px;
+}
+.svgArrow {
+  margin-left: 60px;
+  animation: upDown 2s infinite ease-out;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  75% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section */
+.ThirdSectionWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: space-between;
+}
+.thirdSection-list {
+  border: 2px solid #5a5948;
+}
+.thirdSection-items {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.linkInThirdSection {
+}
+.imgInThirdSection {
+}
+.shadowText {
+  margin-left: 8px;
+  font-weight: 400;
+color: #5f5f5f;
+margin-bottom: 8px;
+}
+.textInItems,.textInItems2,.textInItems3 {
+  margin-left: 8px;
+font-weight: 400;
+font-size: 20px;
+}
+.textInItems::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 568px;
+  background-color: #5f5f5f;
+  height: 2px;
+  left: 80px;
+  bottom: -1635px;
+}
+.textInItems2::after {
+    content: "";
+  position: absolute;
+  display: inline-block;
+  width: 568px;
+  background-color: #5f5f5f;
+    height: 2px;
+     left: 668px;
+  bottom: -1635px;
+}
+.textInItems3::after {
+      content: "";
+  position: absolute;
+  display: inline-block;
+  width: 568px;
+  background-color: #5f5f5f;
+    height: 2px;
+         left: 1255px;
+           bottom: -1635px;
 }

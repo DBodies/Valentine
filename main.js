@@ -1,3 +1,8 @@
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('body').classList.remove('loading');
+  });
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const input = document.getElementById("animatedInput")
 const text = "Good design is as much about form as it is about attitude. It should solve problems, not create them"
