@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
-    <defs>
-        <symbol id="icon-Arrow-2" viewBox="0 0 16 32">
-            <path fill="#fff8a6" d="M7.239 31.531a1.076 1.076 0 0 0 1.523 0l6.853-6.854a1.076 1.076 0 1 0-1.523-1.523L8 29.246l-6.092-6.092a1.076 1.076 0 1 0-1.523 1.523l6.854 6.854zM6.923 0v30.769h2.154V0H6.923z" style="fill:var(--color1, #fff8a6)"/>
-        </symbol>
-    </defs>
-</svg>
