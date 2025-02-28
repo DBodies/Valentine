@@ -289,7 +289,6 @@ flex-direction: row;
   max-width: 900px;
 gap: 16px;
     margin-right: 170px;
-
 }
 .secondList .secondList-items:nth-child(5) p {
   font-weight: 500;
@@ -417,6 +416,12 @@ padding: 10px 0 5px 8px;
       padding: 10px 20px;
       font-weight: 500;
 font-size: 36px;
+}
+.bodySkills {
+  position: relative;
+  left: 150px;
+  top: 100px;
+  transform: scale(1.5);
 }
 .fourthSection-text.HTMLCSS {
   border-left: none;
