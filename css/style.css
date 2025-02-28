@@ -328,12 +328,12 @@ left: 75px;
 .stroke::after {
 content: "";
 display: inline-block;
-width: 320px;
-height: 1px;
+width: 350px;
+height: 2px;
 background-color: #ffea00;
 position: absolute;
-top: 575px;
-left: -280px;
+top: 1652px;
+left: -125px;
 }
 .lowerSvgWomen {
   position: relative;
