@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -12,14 +12,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="loading">
     <header>
       <div class="container header">
-        <svg class="svgValek"
+        <svg
+          class="svgValek"
           xmlns="http://www.w3.org/2000/svg"
           width="145"
           height="141"
@@ -32,53 +36,59 @@
             clip-rule="evenodd"
           />
         </svg>
-        <p class="firstName">Valentyn</p>
+        <p class="firstName" id="firstName">Valentyn</p>
         <ul class="headerList">
-          <li class="headerItems"><a class="listLink" href="">Home</a></li>
-          <li class="headerItems"><a class="listLink" href="">About me</a></li>
-          <li class="headerItems">
-            <a class="listLink" href="">My projects</a>
+          <li class="headerItems"><a class="listLink" href="index.html" id="myHome">Home</a></li>
+          <li class="headerItems"><a class="listLink" href="#me" id="aboutMe">About me</a></li>
+          <li class="headerItems"><a class="listLink" href="#projects" id="myProjects">My projects</a>
           </li>
-          <li class="headerItems"><a class="listLink" href="">My skills</a></li>
-          <li class="headerItems"><a class="listLink" href="">Contact</a></li>
-          <li class="headerItems">
-            <button class="btnSwitch" type="button">EN <svg width="15" height="15" class="vector">
-              <use href="./sprite.svg#icon-vector"></use>
-            </svg></button>
-            <p class="stroke"></p>
-          </li>
-          <li class="headerItems">
-            <button class="btnContact" type="button">Contact</button>
-          </li>
-        </ul>
+          <li class="headerItems"><a class="listLink" href="#skills" id="mySkills">My skills</a></li>
+          <li class="headerItems"><a class="listLink" href="#contact" id="myContact">Contact</a></li>
+                  </ul>
+                  <div class="btnsWrapper">
+            <button class="btnSwitch" type="button" id="btnSwitcher">
+              EN
+            </button>
+            <button class="btnContact" type="button" id="btnContacbtn">Contact</button>
+            </div>
       </div>
     </header>
     <main>
-      <section class="firstSection">
-<div class="container firstTitle">
-  <div class="firstWrapper">
-    <h1 class="Name"><span class="snapName">NEELOV</span> <span class="spanSecondNAme">VALENTYN</span></h1>
-    <p class="textUnderName">I'm a junior UI/UX Designer.
-I can and know how to create modern website designs, mobile apps, know how to customize them.</p>
-    <button class="btn-contactMe">Contact me </button>  
-      <div class="input-container">
-  <input type="text" id="animatedInput" placeholder=" " readonly>
-</div>
-
-  </div>
-  <div class="secondWrapper">
-    <svg class="firstPlus"  width="118" height="118">
-      <use href="./sprite.svg#icon-plus"></use>
-            </svg>
-            <img class="imgMan" src="./img/31-removebg-preview.png" alt="men" width="380" height="380">
-        <p class="textToWork">Open to work</p>
-    <svg class="secondPlus"  width="118" height="118">
-      <use href="./sprite.svg#icon-plus"></use>
-            </svg>
+      <section class="firstSection" >
+        <div class="container firstTitle">
+          <div class="firstWrapper">
+            <h1 class="Name">
+              <span class="snapName">NEELOV</span>
+              <span class="spanSecondNAme">VALENTYN</span>
+            </h1>
+            <p class="textUnderName">
+              I'm a junior UI/UX Designer. I can and know how to create modern
+              website designs, mobile apps, know how to customize them.
+            </p>
+            <button class="btn-contactMe">Contact me</button>
+            <div class="input-container">
+              <input type="text" id="animatedInput" placeholder=" " readonly />
             </div>
-  </div>
+          </div>
+          <div class="secondWrapper">
+            <svg class="firstPlus" width="118" height="118">
+              <use href="./sprite.svg#icon-plus"></use>
+            </svg>
+            <img
+              class="imgMan"
+              src="./img/31-removebg-preview.png"
+              alt="men"
+              width="380"
+              height="380"
+            />
+            <p class="textToWork">Open to work</p>
+            <svg class="secondPlus" width="118" height="118">
+              <use href="./sprite.svg#icon-plus"></use>
+            </svg>
+          </div>
+        </div>
       </section>
-      <section class="secondSEction">
+      <section class="secondSEction" id="me">
         <div class="container">
           <h2 class="secondTitle">About me</h2>
           <div class="secondSection-wrapper">
@@ -87,187 +97,303 @@ I can and know how to create modern website designs, mobile apps, know how to cu
                 <p class="secondText">I`m Valentyn</p>
               </li>
               <li class="secondList-items">
-                <p class="secondText">I specialize in UI/UX design for web and mobile applications. As I continue to grow in this field. I bring ideas to life by creating solutions that are aesthetically pleasing and highly functional, simplifying users' everyday tasks.</p>
+                <p class="secondText">
+                  I specialize in UI/UX design for web and mobile applications.
+                  As I continue to grow in this field. I bring ideas to life by
+                  creating solutions that are aesthetically pleasing and highly
+                  functional, simplifying users' everyday tasks.
+                </p>
               </li>
               <li class="secondList-items">
-                <p class="secondText">I have a higher education in the field of IT. I graduated from National Aerospace University</p>
+                <p class="secondText">
+                  I have a higher education in the field of IT. I graduated from
+                  National Aerospace University
+                </p>
               </li>
               <li class="secondList-items">
                 <p class="secondText">121 Specialty 121 Software Engineering</p>
               </li>
               <li class="secondList-items">
-                <p class="secondText">Completed UI/UX Designer courses at GoIt <br>
-February 2024 - September 2024</p>
+                <p class="secondText">
+                  Completed UI/UX Designer courses at GoIt <br />
+                  February 2024 - September 2024
+                </p>
               </li>
               <li class="secondList-items">
-<svg width="20" height="40" class="svgArrow">
-  <use href="./sprite.svg#icon-Arrow-2"></use>
-</svg>
+                <svg width="20" height="40" class="svgArrow">
+                  <use href="./sprite.svg#icon-Arrow-2"></use>
+                </svg>
               </li>
-              <li class="secondList-items"><a class="btnReadMore" href="https://education.khai.edu/about" target="_blank">Read More</a></li>
+              <li class="secondList-items">
+                <a
+                  class="btnReadMore"
+                  href="https://uxdesign-direct-lp-ua.goit.global/?utm_source=google&utm_medium=cpc&utm_campaign=ay_01_goit_fua25_ua_courses&utm_content=162897973612&utm_term=691416900433&keyword&placement&gad_source=1&gclid=Cj0KCQiA2oW-BhC2ARIsADSIAWqVsnJ6YCFPzirCZDPLqpBrvQCPkpt-NSlhGemo_Mo6CBGfOlV2tnoaAujMEALw_wcB"
+                  target="_blank"
+                  >Read More</a
+                >
+              </li>
             </ul>
             <svg class="upperSvgWomen" width="118" height="118">
               <use href="./sprite.svg#icon-plus"></use>
             </svg>
-                        <svg class="womenWithPaper" >
+            <svg class="womenWithPaper">
               <use href="./sprite.svg#icon-bodyWithPaper"></use>
             </svg>
-                        <svg class="lowerSvgWomen" width="118" height="118">
+            <svg class="lowerSvgWomen" width="118" height="118">
               <use href="./sprite.svg#icon-plus"></use>
             </svg>
           </div>
         </div>
       </section>
-      <section class="thirdSection">
+      <section class="thirdSection" id="projects">
         <div class="container">
           <h3 class="myProject secondTitle">My project</h3>
           <div class="ThirdSectionWrapper">
-          <ul class="thirdSection-list">
-            <li class="thirdSection-items">
-              <a class="linkInThirdSection" target="_blank" href="https://www.behance.net/gallery/207220287/Events">
-                <img class="imgInThirdSection" src="./img/firstPhoto@1x.jpg" srcset="./img/firstPhoto@2x.jpg 2x" alt="behancePhoto">
-                              </a>
-                <p class="shadowText strokeText">Figma, Adobe Photoshop, Adobe Illustrator</p>
+            <ul class="thirdSection-list">
+              <li class="thirdSection-items">
+                <a
+                  class="linkInThirdSection"
+                  target="_blank"
+                  href="https://www.behance.net/gallery/207220287/Events"
+                >
+                  <img
+                    class="imgInThirdSection"
+                    src="./img/firstPhoto@1x.jpg"
+                    srcset="./img/firstPhoto@2x.jpg 2x"
+                    alt="behancePhoto"
+                  />
+                </a>
+                <p class="shadowText strokeText">
+                  Figma, Adobe Photoshop, Adobe Illustrator
+                </p>
                 <p class="textInItems">Parties for you</p>
-                <p class="shadowText">An app for finding<br>and attending events</p>
-                            </li>
-</ul>
+                <p class="shadowText">
+                  An app for finding<br />and attending events
+                </p>
+              </li>
+            </ul>
 
-<ul class="thirdSection-list">
-
-            <li class="thirdSection-items">
-              <a class="linkInThirdSection" target="_blank" href="https://www.behance.net/gallery/211225791/LingoMenotr">
-                <img class="imgInThirdSection" src="./img/secondPhoto@1x.jpg" srcset="./img/secondPhoto@1x.jpg 2x" alt="">
-                              </a>
-                <p class="shadowText strokeText">Figma, Adobe Photoshop, Adobe Illustrator, Adobe After Effects</p>
+            <ul class="thirdSection-list">
+              <li class="thirdSection-items">
+                <a
+                  class="linkInThirdSection"
+                  target="_blank"
+                  href="https://www.behance.net/gallery/211225791/LingoMenotr"
+                >
+                  <img
+                    class="imgInThirdSection"
+                    src="./img/secondPhoto@1x.jpg"
+                    srcset="./img/secondPhoto@1x.jpg 2x"
+                    alt=""
+                  />
+                </a>
+                <p class="shadowText strokeText">
+                  Figma, Adobe Photoshop, Adobe Illustrator, Adobe After Effects
+                </p>
                 <p class="textInItems2">Lingo Mentor</p>
-                <p class="shadowText">Foreign language<br>learning app</p>
-            </li>
+                <p class="shadowText">Foreign language<br />learning app</p>
+              </li>
             </ul>
             <ul class="thirdSection-list">
-            <li class="thirdSection-items">
-              <a class="linkInThirdSection" target="_blank" href="https://www.behance.net/gallery/206599091/Nurture">
-                <img class="imgInThirdSection" src="./img/thirdPhoto@1x.jpg" srcset="./img/thirdPhoto@1x.jpg 2x" alt="">
-                              </a>
-                <p class="shadowText strokeText">Figma, Adobe Photoshop, Adobe After Effects</p>
+              <li class="thirdSection-items">
+                <a
+                  class="linkInThirdSection"
+                  target="_blank"
+                  href="https://www.behance.net/gallery/206599091/Nurture"
+                >
+                  <img
+                    class="imgInThirdSection"
+                    src="./img/thirdPhoto@1x.jpg"
+                    srcset="./img/thirdPhoto@1x.jpg 2x"
+                    alt=""
+                  />
+                </a>
+                <p class="shadowText strokeText">
+                  Figma, Adobe Photoshop, Adobe After Effects
+                </p>
                 <p class="textInItems3">Nurture</p>
-                <p class="shadowText">A site showing the<br>capabilities of designers</p>
-            </li>
-          </ul>
+                <p class="shadowText">
+                  A site showing the<br />capabilities of designers
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <section class="fourthSection">
+      <section class="fourthSection" id="skills">
         <div class="container">
           <h2 class="mySkills secondTitle">My skills</h2>
           <div class="fourthSection-wrapper">
             <svg width="715" height="609" class="bodySkills">
               <use href="./sprite.svg#icon-bodySkills"></use>
-                          </svg>
-              <ul class="fourthSection-list">
-                <li class="fourthSection-items Languages"><span class="spanText language">Languages</span>
-                <p class="fourthSection-text">Ukrainian<br>English</p></li>
-                <li class="fourthSection-items"><span class="spanText Sphere">Sphere</span>
-                  <p class="fourthSection-text">UI/UX design<br>Web design</p></li>
-                  <li class="itemForList">
-                    <ul class="underSphere-list">
-                    <li class="underSphere-items"><span class="spanAdditional">Additional<br>knowledge</span>
-                    <p class="fourthSection-text HTMLCSS">HTML<br>CSS</p></li>
-                  </ul>
-                </li>
-                <li class="fourthSection-items "><span class="spanText tools">Tools</span>
-                  <ul class="fourthSectionList-In-li">
-                    <li class="fourthSectionItems-In-ul">FIgma</li>
-                    <li class="fourthSectionItems-In-ul">Adobe Photoshop</li>
-                    <li class="fourthSectionItems-In-ul">Adobe Illustrator</li>
-                    <li class="fourthSectionItems-In-ul">Adobe After Effects</li>
-                    <li class="fourthSectionItems-In-ul">Webflow</li>
-                    <li class="fourthSectionItems-In-ul">Picsart</li>
-                  </ul>
-                  <ul class="listOfKnowledge">
-                    <li class="itemsOfKnowledge"><span class="knowledgeSpan">Knowledge</span></li>
-                    <li class="itemsOfKnowledge">Adaptation</li>
-                    <li class="itemsOfKnowledge">Animation</li>
-                    <li class="itemsOfKnowledge">Layout</li>
-                    <li class="itemsOfKnowledge">User interface</li>
-                    <li class="itemsOfKnowledge">User experience</li>
-                    <li class="itemsOfKnowledge">Mobile design</li>
-                    <li class="itemsOfKnowledge">Web design</li>
-                    <li class="itemsOfKnowledge">Design system</li>
-                  </ul>
-                </li>
-              </ul>
-
+            </svg>
+            <ul class="fourthSection-list">
+              <li class="fourthSection-items Languages">
+                <span class="spanText language">Languages</span>
+                <p class="fourthSection-text">Ukrainian<br />English</p>
+              </li>
+              <li class="fourthSection-items">
+                <span class="spanText Sphere">Sphere</span>
+                <p class="fourthSection-text">UI/UX design<br />Web design</p>
+              </li>
+              <li class="itemForList">
+                <ul class="underSphere-list">
+                  <li class="underSphere-items">
+                    <span class="spanAdditional"
+                      >Additional<br />knowledge</span
+                    >
+                    <p class="fourthSection-text HTMLCSS">HTML<br />CSS</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="fourthSection-items">
+                <span class="spanText tools">Tools</span>
+                <ul class="fourthSectionList-In-li">
+                  <li class="fourthSectionItems-In-ul">FIgma</li>
+                  <li class="fourthSectionItems-In-ul">Adobe Photoshop</li>
+                  <li class="fourthSectionItems-In-ul">Adobe Illustrator</li>
+                  <li class="fourthSectionItems-In-ul">Adobe After Effects</li>
+                  <li class="fourthSectionItems-In-ul">Webflow</li>
+                  <li class="fourthSectionItems-In-ul">Picsart</li>
+                </ul>
+                <ul class="listOfKnowledge">
+                  <li class="itemsOfKnowledge">
+                    <span class="knowledgeSpan">Knowledge</span>
+                  </li>
+                  <li class="itemsOfKnowledge">Adaptation</li>
+                  <li class="itemsOfKnowledge">Animation</li>
+                  <li class="itemsOfKnowledge">Layout</li>
+                  <li class="itemsOfKnowledge">User interface</li>
+                  <li class="itemsOfKnowledge">User experience</li>
+                  <li class="itemsOfKnowledge">Mobile design</li>
+                  <li class="itemsOfKnowledge">Web design</li>
+                  <li class="itemsOfKnowledge">Design system</li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <section class="fifthSection">
+      <section class="fifthSection" id="contact">
         <div class="container fifthSectionWrapper">
-                    <div class="wrapperForLabel">
-          <h2 class="fifthSection-title secondTitle">Contact</h2>
-          <p class="fifthSectionText">I consider the possibility of working in the office, as well as can work on freelance or can take any orders</p>
-            <form class="contactForm">
+          <div class="wrapperForLabel">
+            <h2 class="fifthSection-title secondTitle">Contact</h2>
+            <p class="fifthSectionText">
+              I consider the possibility of working in the office, as well as
+              can work on freelance or can take any orders
+            </p>
+            <form class="contactForm" id="contactForm">
               <label class="label" for="name"></label>
-              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
               <label class="label" for="email"></label>
-              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
               <label class="label" for="title"></label>
-              <input type="text" id="title" name="title" placeholder="Enter title">
+              <input
+                type="text"
+                id="title"
+                name="title"
+                placeholder="Enter title"
+              />
               <label class="label" for="message"></label>
-              <input type="text" id="message" name="message" placeholder="Enter your message" required>
-              <button class="btnSubmit" type="submit">Submit</button>
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                required
+              />
+              <button class="btnSubmit" type="submit">
+                <span class="btnSubmitSpan">Submit</span>
+              </button>
             </form>
           </div>
-          <svg  width="862" height="535" class="bodiesAroundPaper">
+          <svg width="862" height="535" class="bodiesAroundPaper">
             <use href="./sprite.svg#icon-BodiesAround"></use>
           </svg>
         </div>
       </section>
     </main>
-    <footer >
+    <footer>
       <div class="container">
         <p class="footerStroke"></p>
         <div class="footerWrapper">
-        <svg class="svgValekFooter"
-          xmlns="http://www.w3.org/2000/svg"
-          width="145"
-          height="141"
-          fill="none"
-        >
-          <path
-            fill="#FFEA01"
-            fill-rule="evenodd"
-            d="M101.428 109.419a49.271 49.271 0 0 1-19.188 3.865c-27.46 0-49.76-22.43-49.76-50.142 0-11.966 4.157-22.946 11.092-31.561a49.28 49.28 0 0 1 19.188-3.865c27.46 0 49.759 22.43 49.759 50.142 0 11.965-4.156 22.946-11.091 31.561Zm5.757-2.882c5.275-8.273 8.334-18.116 8.334-28.679 0-29.35-23.62-53.142-52.76-53.142-5.158 0-10.144.746-14.857 2.136C56.835 18.268 68.932 13 82.24 13 109.701 13 132 35.429 132 63.142a50.185 50.185 0 0 1-24.815 43.395Zm-3.9 5.351C121.95 103.701 135 84.957 135 63.142 135 33.792 111.379 10 82.24 10c-16.285 0-30.847 7.432-40.525 19.112C23.05 37.3 10 56.044 10 77.858 10 107.208 33.621 131 62.76 131c16.285 0 30.847-7.432 40.525-19.112Zm-6.187 2.26a52.44 52.44 0 0 1-14.858 2.136c-29.138 0-52.76-23.793-52.76-53.142 0-10.563 3.06-20.406 8.335-28.68A50.185 50.185 0 0 0 13 77.859C13 105.571 35.299 128 62.76 128c13.309 0 25.405-5.268 34.338-13.852Z"
-            clip-rule="evenodd"
-          />
-        </svg>
+          <svg
+            class="svgValekFooter"
+            xmlns="http://www.w3.org/2000/svg"
+            width="145"
+            height="141"
+            fill="none"
+          >
+            <path
+              fill="#FFEA01"
+              fill-rule="evenodd"
+              d="M101.428 109.419a49.271 49.271 0 0 1-19.188 3.865c-27.46 0-49.76-22.43-49.76-50.142 0-11.966 4.157-22.946 11.092-31.561a49.28 49.28 0 0 1 19.188-3.865c27.46 0 49.759 22.43 49.759 50.142 0 11.965-4.156 22.946-11.091 31.561Zm5.757-2.882c5.275-8.273 8.334-18.116 8.334-28.679 0-29.35-23.62-53.142-52.76-53.142-5.158 0-10.144.746-14.857 2.136C56.835 18.268 68.932 13 82.24 13 109.701 13 132 35.429 132 63.142a50.185 50.185 0 0 1-24.815 43.395Zm-3.9 5.351C121.95 103.701 135 84.957 135 63.142 135 33.792 111.379 10 82.24 10c-16.285 0-30.847 7.432-40.525 19.112C23.05 37.3 10 56.044 10 77.858 10 107.208 33.621 131 62.76 131c16.285 0 30.847-7.432 40.525-19.112Zm-6.187 2.26a52.44 52.44 0 0 1-14.858 2.136c-29.138 0-52.76-23.793-52.76-53.142 0-10.563 3.06-20.406 8.335-28.68A50.185 50.185 0 0 0 13 77.859C13 105.571 35.299 128 62.76 128c13.309 0 25.405-5.268 34.338-13.852Z"
+              clip-rule="evenodd"
+            />
+          </svg>
           <p class="footerValentine">Valentyn</p>
-          <p class="footerEmail">vali.nieilov@gmail.com</p>
-          
+          <p class="footerEmail">
+            <a target="_blank" href="mailto:vali.nieilov@gmail.com"
+              >vali.nieilov@gmail.com</a
+            >
+          </p>
+
           <ul class="footerList">
-            <li class="footerItems"><p class="textInLi">Other ways to contact me</p></li>
+            <li class="footerItems">
+              <p class="textInLi">Other ways to contact me</p>
+            </li>
             <li class="footerItems">
               <ul class="listInFooterList">
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-linkedin-1"></use>
-              </svg></a></li>
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-insta"></use>
-              </svg></a></li>
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-facbook"></use>
-              </svg></a></li>
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-behance"></use>
-              </svg></a></li>
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-telegram"></use>
-              </svg></a></li>
-              <li class="itemsInList"><a href=""><svg class="svgFooterContact" width="48" height="48">
-                <use href="./sprite.svg#icon-whtsup"></use>
-              </svg></a></li>
-            </ul>
-          </li>
+                <li class="itemsInList">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/valentin-neelov-a515962b1/"
+                    ><svg class="svgFooterContact" width="48" height="48">
+                      <use href="./sprite.svg#icon-linkedin-1"></use></svg
+                  ></a>
+                </li>
+                <li class="itemsInList">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/valinok_322?igsh=dmc3ZndtZ3NpeHBu"
+                    ><svg class="svgFooterContact" width="48" height="48">
+                      <use href="./sprite.svg#icon-insta"></use></svg
+                  ></a>
+                </li>
+                <li class="itemsInList">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/share/15Cwh99zc1/?mibextid=wwXIfr"
+                    ><svg class="svgFooterContact" width="48" height="48">
+                      <use href="./sprite.svg#icon-facbook"></use></svg
+                  ></a>
+                </li>
+                <li class="itemsInList">
+                  <a target="_blank" href="https://www.behance.net/e8d71c64"
+                    ><svg class="svgFooterContact" width="48" height="48">
+                      <use href="./sprite.svg#icon-behance"></use></svg
+                  ></a>
+                </li>
+                <li class="itemsInList">
+                  <a target="_blank" href="https://t.me/valekparenek"
+                    ><svg class="svgFooterContact" width="48" height="48">
+                      <use href="./sprite.svg#icon-telegram"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
           </ul>
           <nav class="footerNav">
             <p class="textNavigation">Site Navigation</p>
@@ -279,12 +405,13 @@ February 2024 - September 2024</p>
               <li class="navItems">Contact</li>
             </ul>
           </nav>
-          </div>
+        </div>
         <div class="textWrapper">
           <p class="lowerText">i will be glad to cooperate</p>
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.6.5/i18next.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
