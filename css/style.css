@@ -441,7 +441,7 @@ img {
 .bodySkills {
   position: relative;
   left: 150px;
-  top: 100px;
+  top: 200px;
   transform: scale(1.5);
 }
 .fourthSection-text.HTMLCSS {
@@ -460,11 +460,11 @@ img {
   border-bottom: none;
 }
 .spanText.tools {
-  padding: 0 85px;
+  padding: 0 115px;
   max-width: 300px;
 }
 .spanText.Sphere {
-  padding: 0 80px;
+  padding: 0 135px;
 }
 .spanText.language {
   padding: 0 80px;
@@ -479,15 +479,13 @@ img {
   font-size: 36px;
   padding: 5.5px 20px;
 }
-.itemForList {
-}
+
 .underSphere-items {
   border: 2px solid #ffea00;
   border-bottom: none;
 }
 .underSphere-list {
-  position: relative;
-  bottom: 6px;
+margin-top: 20px;
 }
 .spanAdditional {
   font-weight: 500;
