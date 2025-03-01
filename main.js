@@ -244,3 +244,23 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault()
+    emailjs.sendForm("service_ec1wczl", "template_77kid0h", this, "qGxawfmwbh2QPuvVF")
+        .then(
+            (response) => {
+                console.log("SUCCESS!", response)
+                if(response && response.status === 200) {
+                    alert("your message has been sent")
+                } else {
+                    alert("Sending went wrong")
+                    }
+            },
+            (error) => {
+                console.log("FAILED...", error)
+                alert("Sending error")
+                }
+    )
+    this.reset()
+})
