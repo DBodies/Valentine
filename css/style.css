@@ -460,13 +460,14 @@ img {
   border-bottom: none;
 }
 .spanText.tools {
-  padding: 0 140px;
+  padding: 0 85px;
+  max-width: 300px;
 }
 .spanText.Sphere {
   padding: 0 80px;
 }
 .spanText.language {
-  padding: 0 20px;
+  padding: 0 80px;
 }
 .fourthSectionList-In-li {
   border: 2px solid #ffea00;
@@ -505,7 +506,7 @@ img {
   justify-content: center;
 }
 .itemsOfKnowledge:nth-child(n + 2) {
-  margin: 10px 0 10px 20px;
+  margin: 10px;
 }
 .listOfKnowledge {
   margin-top: 20px;
@@ -619,12 +620,12 @@ img {
 /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */ /* Footer */
 .footerStroke::before {
   position: relative;
-  width: 1920px;
+  width: 1800px;
   background-color: #ffea00;
   content: "";
   display: inline-block;
   height: 3px;
-  left: -90px;
+  left: -40px;
   margin-bottom: 50px;
 }
 .footerWrapper {
