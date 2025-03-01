@@ -76,6 +76,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById("designSystem").textContent = i18next.t("designSystem");
                 document.getElementById("projectTitle").textContent = i18next.t("projectTitle");
                 document.getElementById("languageSpan").textContent = i18next.t("languageSpan");
+                document.getElementById("fifthSectionContact").textContent = i18next.t("fifthSectionContact");
+                document.getElementById("fifthSEctionText").textContent = i18next.t("fifthSEctionText");
+                document.getElementById("btnSubmit").textContent = i18next.t("btnSubmit");
+                document.getElementById("name").setAttribute("placeholder", i18next.t("placeholderName"))
+                document.getElementById("email").setAttribute("placeholder", i18next.t("placeholderEmail"))
+                document.getElementById("title").setAttribute("placeholder", i18next.t("placeholderTitle"))
+        document.getElementById("message").setAttribute("placeholder", i18next.t("placeholderMessage"))
+        document.getElementById("cooperate").textContent = i18next.t("cooperate");
+        
+                        document.getElementById("footerContact").textContent = i18next.t("footerContact");
+                        document.getElementById("footerSkills").textContent = i18next.t("footerSkills");
+                        document.getElementById("footerProject").textContent = i18next.t("footerProject");
+                        document.getElementById("footerAboutMe").textContent = i18next.t("footerAboutMe");
+                        document.getElementById("footerHome").textContent = i18next.t("footerHome");
+                        document.getElementById("footerNav").textContent = i18next.t("footerNav");
+                        document.getElementById("otherWays").textContent = i18next.t("otherWays");
+                        document.getElementById("footerValentyn").textContent = i18next.t("footerValentyn");
 
         // Обновляем текст анимации
         text = i18next.t("animatedText");
@@ -131,7 +148,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     "sphereSkills": "Sphere",
                     "lngUaEn": "Ukrainian<br />English",
                     "mySkillsTitle": "Languages",
-                    "languageSpan": "Languages"
+                    "languageSpan": "Languages",
+                    "fifthSectionContact": "Contact",
+                    "fifthSEctionText": "I consider the possibility of working in the office, as well as can work on freelance, as well as can take orders",
+                    "placeholderName": "Enter your name",
+                    "placeholderEmail": "Enter your email",
+                    "placeholderTitle": "Enter title",
+                    "placeholderMessage": "Enter your message",
+                    "btnSubmit": "Submit",
+                    "footerValentyn": "Valentyn",
+                    "otherWays": "other ways to contact me",
+                    "footerNav": "Site navigation",
+                    "footerHome": "Home",
+                    "footerAboutMe": "About me",
+                    "footerProject": "My projects",
+                    "footerSkills": "My skills",
+                    "footerContact": "Contact",
+                    "cooperate": "I will be glad to cooperate",
                     
                 },
             },
@@ -146,8 +179,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     "myContact": "Контакти",
                     "toggleButton": "EN",
                     "btnContacbtn": "Контакти",
-                     "neelov": "Неєлов",
-                "valentyn": "VALENTYN",
+                     "neelov": "НЕЄЛОВ",
+                "valentyn": "ВАЛЕНТИН",
                 "textUnderName": "Я junior UI/UX Designer. Я вмію та знаю, як створювати сучасні дизайни вебсайтів і мобільних додатків, а також як їх налаштовувати",
                 "contactMe": "Зв'язатися зі мною",
                     "openToWork": "Готовий до співпраці",
@@ -177,7 +210,24 @@ document.addEventListener("DOMContentLoaded", function () {
                     "sphereSkills": "Отрасль",
                     "lngUaEn": "Українська <br />Англійська",
                     "mySkillsTitle": "Мої навички",
-                   "languageSpan": "Мови"
+                   "languageSpan": "Мови",
+                    "fifthSectionContact": "Контакти",
+                    "fifthSEctionText": "Розглядаю можливість роботи в офісі, а також можу працювати на фрилансі та виконувати замовлення",
+                    
+                    "placeholderName": "Введіть ваше ім'я",
+                    "placeholderEmail": "Введіть вашу електронну пошту",
+                    "placeholderTitle": "Введіть заголовок",
+                    "placeholderMessage": "Введіть ваше повідомлення",
+                    "btnSubmit": "Надіслати",
+                    "footerValentyn": "Валентин",
+                    "otherWays": "Способи зв'язку",
+                    "footerNav": "Навігація сайтом",
+                    "footerHome": "Головна",
+                    "footerAboutMe": "Про мене",
+                    "footerProject": "Мої проєкти",
+                    "footerSkills": "Мої навички",
+                    "footerContact": "Контакти",
+                    "cooperate": "Буду радий співпраці",
                  
                 },
             },
