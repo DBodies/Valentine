@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     "mySkills": "My Skills",
                     "myContact": "Contact",
                     "toggleButton": "UA",
-                    "btnContacbtn": "Contact",
+                    "btnContacbtn": "Download resume",
                                     "neelov": "NEELOV",
                 "valentyn": "VALENTYN",
                 "textUnderName": "I'm a junior UI/UX Designer. I can and know how to create modern website designs mobile apps, know how to customize them",
@@ -131,7 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "projectDscr": "An app for finding and attending events",
                 "secondDscr": "Foreign language learning app",
                 "thirdDscr": "A site showing the capabilities of designers",
-                    
                     "projectTitle": "My projects",
                     "designSystem": "Design system",
                     "webDesign": "Web design",
@@ -178,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     "mySkills": "Навички",
                     "myContact": "Контакти",
                     "toggleButton": "EN",
-                    "btnContacbtn": "Контакти",
+                    "btnContacbtn": "Завантажити резюме",
                      "neelov": "НЕЄЛОВ",
                 "valentyn": "ВАЛЕНТИН",
                 "textUnderName": "Я junior UI/UX Designer. Я вмію та знаю, як створювати сучасні дизайни вебсайтів і мобільних додатків, а також як їх налаштовувати",
@@ -213,7 +212,6 @@ document.addEventListener("DOMContentLoaded", function () {
                    "languageSpan": "Мови",
                     "fifthSectionContact": "Контакти",
                     "fifthSEctionText": "Розглядаю можливість роботи в офісі, а також можу працювати на фрилансі та виконувати замовлення",
-                    
                     "placeholderName": "Введіть ваше ім'я",
                     "placeholderEmail": "Введіть вашу електронну пошту",
                     "placeholderTitle": "Введіть заголовок",
