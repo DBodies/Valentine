@@ -186,16 +186,17 @@ img {
   margin-bottom: 32px;
 }
 .btn-contactMe {
-  padding: 21px 30px;
+  padding: 21px 60px;
   background-color: #fff8a6;
   border: none;
-  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 10px;
   margin-bottom: 80px;
   max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-    box-shadow: 200px -50px 400px rgb(233, 218, 5);
+box-shadow: 0px 0px 40px rgb(153, 143, 0);
   animation: right-to-left 1s infinite ease-out;
 }
 .svgInBtn {
@@ -204,17 +205,6 @@ img {
   animation: right-to-left 1s infinite ease-out;
 }
 
-@keyframes right-to-left {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(8px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 .secondWrapper {
   display: flex;
   flex-direction: column;
@@ -470,14 +460,20 @@ img {
   border-bottom: none;
 }
 .spanText.tools {
-  padding: 0 115px;
+    position: relative;
+  bottom: 20px;
+  padding: 20px 115px;
   max-width: 300px;
 }
 .spanText.Sphere {
-  padding: 0 135px;
+    position: relative;
+  bottom: 20px;
+  padding: 20px 135px;
 }
 .spanText.language {
-  padding: 0 80px;
+  position: relative;
+  bottom: 20px;
+  padding: 20px 80px;
 }
 .fourthSectionList-In-li {
   border: 2px solid #ffea00;
@@ -527,7 +523,7 @@ margin-top: 20px;
 
 .knowledgeSpan {
   border: 2px solid #ffea00;
-  padding: 0;
+padding: 20px 0;
   font-weight: 500;
   font-size: 36px;
   display: flex;
@@ -551,12 +547,13 @@ margin-top: 20px;
   font-size: 32px;
   color: white;
   max-width: 600px;
+  margin-bottom: 30px;
 }
 .contactForm {
   display: flex;
   flex-direction: column;
   max-width: 700px;
-  gap: 14px;
+  gap: 24px;
 }
 
 #name,
@@ -582,12 +579,12 @@ margin-top: 20px;
 .bodiesAroundPaper {
   position: absolute;
   left: 900px;
-  top: 4450px;
+  top: 4700px;
 }
 .btnSubmit {
   padding: 21px 30px;
-  background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+  background-color: #fff8a6;
+    color: rgb(0, 0, 0);
   border: none;
   border-radius: 15px;
   margin-bottom: 250px;
@@ -595,11 +592,11 @@ margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.9);
+box-shadow: 0px 0px 40px rgb(153, 143, 0);
   transition: all 0.4s ease-in-out;
+  margin-top: 24px;
 }
 .btnSubmit:hover {
   transform: scale(1.1);
@@ -664,13 +661,15 @@ margin-top: 20px;
 }
 
 .textInLi {
-  padding: 10px 130px;
+  padding: 10px 60px;
   border: 2px solid #ffea00;
   border-bottom: none;
   font-weight: 500;
   font-size: 24px;
+  text-align: center;
 }
 .listInFooterList {
+  padding: 10px 20px;
   border: 2px solid #ffea00;
   display: flex;
   flex-direction: row;
@@ -746,14 +745,4 @@ margin-top: 20px;
 transition: 250ms ease-in;
   display: inline-block;
   position: relative;
-}
-.valentynEmail:hover::before {
-  position: absolute;
-  content: "";
-  display: inline-block;
-  height: 3px;
-  background-color: #ff9900;
-  width: 270px;
-  bottom: -10px;
-    box-shadow: 1px -2px 20px 3px rgba(255, 255, 255, 0.5);
 }
