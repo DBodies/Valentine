@@ -1,6 +1,6 @@
 {"scripts": {
   "dev": "vite",
-  "build": "vite build",
+  "build": "vite build --base=/Valentine/",
   "preview": "vite preview"
 },
   "dependencies": {
