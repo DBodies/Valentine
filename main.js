@@ -1,5 +1,7 @@
-import iziToast from "izitoast/dist/js/iziToast.min.js";
+import * as iziToast from "izitoast/dist/js/iziToast.min.js";
 import "izitoast/dist/css/iziToast.min.css";
+
+
 
 window.onload = function () {
   document.querySelector('body').classList.remove('loading');
