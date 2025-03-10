@@ -1,4 +1,6 @@
-window.onload = function() {
+import iziToast from "izitoast";
+
+window.onload = function () {
   document.querySelector('body').classList.remove('loading');
 };
 
@@ -250,15 +252,28 @@ document.getElementById("contactForm").addEventListener("submit", function (even
             (response) => {
                 console.log("SUCCESS!", response)
                 if(response && response.status === 200) {
-                    alert("your message has been sent")
+                                    iziToast.success({
+                    title: "Succes",
+                    message: "Your message has been sent!",
+                    position: "topCenter"
+                })
                 } else {
-                    alert("Sending went wrong")
+                    iziToast.error({
+                    title: "Error",
+                    message: "Sending went wrong",
+                    position: "topCenter"
+                })
                     }
             },
             (error) => {
                 console.log("FAILED...", error)
-                alert("Sending error")
+                iziToast.error({
+                    title: "Error",
+                    message: "Sending error",
+                    position: "topCenter"
+                })
                 }
     )
     this.reset()
 })
+
